@@ -7,14 +7,14 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+API_ID = int(os.getenv("API_ID", "16602377"))
+API_HASH = os.environ.get("API_HASH", "6766d1e1d9fdddf7e06171829958bfad")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5850329168:AAEpCUV2AYfIZKxvtKgQvcjX5r7xLx7gOow")
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("1826980364 1009293650")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://kgconvert:kgconvert@cluster0.kxclnsn.mongodb.net/?retryWrites=true&w=majority") 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "1826980364")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
 #  Optionnal variables
