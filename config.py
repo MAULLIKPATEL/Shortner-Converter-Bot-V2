@@ -18,8 +18,8 @@ OWNER_ID =  int(os.environ.get("OWNER_ID", "1826980364"))
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(1009293650)
 #  Optionnal variables
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Updates Channel User name Without @") # For Force Subscription
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001887643064")) 
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "DTG_TV") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", 'https://te.legra.ph/file/ac21c80a4947064ffb8e6.jpg') # image when someone hit /start # image when someone hit /start
 LINK_BYPASS = "False"
